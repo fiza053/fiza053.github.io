@@ -3,18 +3,24 @@
 	margin:0;
 }
 body{
-	background:gray;
-	color:white;
-	text-align:center;
+	background:#4B515D;
+	color:#4B515D;
 }
 #test{
+	
+	color:white;
 	opacity:0.5;
 	font-family:arial;
 }
+.center{
+	text-align:center;
+}
+
 .container{
+
 	font-family:system-ui;
 	width:350px;
-	background:#6c757d;
+	background:#7EC8E3;
 	padding:10px;
 	display:inline-block;
 	box-sizing: border-box;
@@ -24,20 +30,20 @@ body{
 
 div .city{
 	font-weight:500;
-	color:white;
 }
 
 div .temp{
 	font-size:60px;
 	margin-top:20px;
 }
+
 div .img{
-	width: 200px;
-    height: 250px;
+	width:150px;
+	height:150px;
 }
 
 .all-items{
-	background-color: #e698e7;
+	background-color: #fff;
 }
 
 .row1{
@@ -60,8 +66,8 @@ div .symbol-img{
     height: 60px;
 }
 .item1:hover{
-	background:#c458c5;
+	background:#9AB9B9;
 }
 #select3{
-	background:#c458c5;
+	background:#9AB9B9;
 }
