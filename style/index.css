@@ -52,6 +52,11 @@ input {
     background-color: #B0BEC5;
 }
 
+.mr-5 h3{
+    text-align: center;
+}
+
+
 @media screen and (max-width: 500px) {
     .card1 {
         padding-left: 26px;
