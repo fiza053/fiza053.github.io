@@ -1,2 +1,61 @@
 
 
+
+.card0 {
+    width: 94%;
+}
+
+.card1 {
+    background-color: #262936;
+    padding: 30px 20px 30px 50px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.card2 {
+    background-color: #607D8B;
+}
+
+input {
+    background-color: #607D8B;
+    padding: 24px 0px 12px 0px !important;
+    width: 80%;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1px solid #CFD8DC !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    outline: none;
+}
+
+::placeholder{
+    color: #1e202b;
+}
+
+
+.fa-search {
+    color: #607D8B;
+    background-color: #E1F5FE;
+    font-size: 20px;
+    padding: 15px;
+    width: 15%;
+    cursor: pointer;
+}
+
+.light-text {
+    color: #B0BEC5;
+}
+
+.line {
+    height: 1px;
+    background-color: #B0BEC5;
+}
+
+@media screen and (max-width: 500px) {
+    .card1 {
+        padding-left: 26px;
+    }
+}
